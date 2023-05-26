@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#logo {
+    background: #D9D9D9;
+    height: 0;
+    padding-top: 90px;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 139px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    background: #D9D9D9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+#remember-password {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#remember-password-label {
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+}
+
+#login-btn {
+    width: 100%;
+    height: 46px;
+    background: #D9D9D9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.form-container {
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+label {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+input {
+    font-size: 14px;
+    border-radius: 4px;
+}
+.form-check-input {
+    margin-right: 5px;
+}
+
+.form-container {
+    padding: 10px;
+}
+label, input, .form-check-label {
+    font-size: 12px;
+}
+@media only screen and (max-width: 480px) {
+    .form-container {
+        padding: 10px;
+    }
+    label, input, .form-check-label {
+        font-size: 12px;}
+
+/* Recordar contraseña */
+.forgot-password {
+position: absolute;
+width: 165px;
+height: 17px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+
+}
+
+/* Contraseña */
+#password {
+position: absolute;
+width: 190px;
+height: 41px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+/* Enviar */
+#login-btn {
+position: absolute;
+width: 190px;
+height: 46px;
+
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* Usuario */
+#username {
+position: absolute;
+width: 190px;
+height: 41px;
+
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+
+/* LOGO */
+#logo {
+position: absolute;
+width: 100px;
+height: 88px;
+
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+/* Common styles for all screen sizes */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container {
+    margin: 5% auto;
+    max-width: 500px;
+    background-color: #D9D9D9;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.input-group {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"], input[type="checkbox"] {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 320px) {
+    /* Mobile Device 320px — 480px */
+
+    /* Set the container width and height */
+    body {
+        position: relative;
+        width: 320px;
+        height: 480px;
+    }
+
+    /* Adjust the position and size of the elements */
+    .logo {
+        top: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 70px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .input-container {
+        top: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+
+    .input-container input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .input-container button {
+        width: 100%;
+        height: 45px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .remember {
+        top: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 10px;
+        line-height: 12px;
+
+    }
+}}
